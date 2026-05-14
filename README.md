@@ -28,7 +28,6 @@ production-ready-nj/
 ```
 
 ## What's still TODO before launch
-- Add real phone number (`tel:` link in `#contact` and footer)
 - Add Calendly link (`#contact` schedule line)
 - Optionally swap "Get started" button on Packages section for direct Stripe Payment Links per tier (commented in the HTML)
 - Confirm Plus-tier description (Deal Sheet contents) once first paid client validates the format
