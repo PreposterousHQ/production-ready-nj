@@ -28,9 +28,7 @@ production-ready-nj/
 ```
 
 ## What's still TODO before launch
-- Add Calendly link (`#contact` schedule line)
-- Optionally swap "Get started" button on Packages section for direct Stripe Payment Links per tier (commented in the HTML)
-- Confirm Plus-tier description (Deal Sheet contents) once first paid client validates the format
+- Optionally swap "Get started" button on Packages section for direct Stripe Payment Link (commented in the HTML)
 - Add favicon and Open Graph image
 - Optional: Formspree or similar form solution for inbound leads, if not relying on direct email
 

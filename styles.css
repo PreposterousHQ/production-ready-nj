@@ -565,3 +565,29 @@ strong { font-weight: 500; }
   .stats { grid-template-columns: 1fr 1fr; }
   .stat .num { font-size: 20px; }
 }
+
+/* v0.5 additions — single-package layout and hero scope line */
+.hero-scope {
+  font-size: 14.5px;
+  color: rgba(10,37,64,0.78);
+  margin-top: 4px;
+  margin-bottom: 18px;
+}
+.pricing.single {
+  grid-template-columns: minmax(0, 460px);
+  justify-content: center;
+  margin: 22px auto 0;
+}
+.pricing.single .tier { padding: 24px 22px; text-align: center; }
+.pricing.single .tier .tprice { font-size: 36px; margin: 12px 0 6px; }
+.includes-list { margin: 22px auto; }
+.founding-rate {
+  max-width: 640px;
+  margin: 18px auto 6px;
+  font-size: 14.5px;
+  text-align: center;
+  color: rgba(10,37,64,0.85);
+}
+@media (max-width: 640px) {
+  .pricing.single { grid-template-columns: minmax(0, 1fr); }
+}
